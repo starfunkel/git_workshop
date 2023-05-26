@@ -8,9 +8,11 @@
 
 ![Happy with Git](assets/git-commit-organized.jpg)</div></br>
 
-#### <center>Von Christian Rathnau</center></br>
 
-<div style="margin-left: 350px;
+
+#### <center>Christian Rathnau</center></br>
+
+<div style="margin-left: 750px;
             width: 35%
             ">
 
@@ -42,7 +44,7 @@
             margin-right: auto;
             width: 75%">
 
-![Git Desktop](assets\git_desktop_changes.png)</div></br>
+![Git Desktop](assets/git_desktop_changes.png)</div></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -54,7 +56,7 @@
             margin-right: auto;
             width: 75%">
 
-![Git Desktop](assets\git_desktop_author.png)</div></br></br></br></br>
+![Git Desktop](assets/git_desktop_author.png)</div></br></br></br></br>
 
 ***
 </br></br></br></br></br></br></br></br>
@@ -67,7 +69,7 @@
             margin-right: auto;
             width: 75%">
 
-![drunk_baby](assets\drunk_baby.png)</div></br></br></br></br></br></br></br></br></br>
+![drunk_baby](assets/drunk_baby.png)</div></br></br></br></br></br></br></br></br></br>
 
 
 
@@ -80,7 +82,7 @@
             margin-right: auto;
             width: 75%">
 
-![wget_win_old](assets\old_wgetgui-screenshot.png)</div>
+![wget_win_old](assets/old_wgetgui-screenshot.png)</div>
 
 
 
@@ -88,7 +90,7 @@
             margin-right: auto;
             width: 75%">
 
-![wget_win_new](assets\new_wget_gui.jpg)
+![wget_win_new](assets/new_wget_gui.jpg)
 </div></br></br>
 
 <div style="margin-left: auto;
@@ -101,7 +103,7 @@
             margin-right: auto;
             width: 75%">
 
- ![wget_win_new](assets\wget-cli.png)</div></br></br>
+ ![wget_win_new](assets/wget-cli.png)</div></br></br>
 
 
 
