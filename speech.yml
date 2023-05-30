@@ -6,14 +6,33 @@
 
 ***
 
-  - Ein Versionskontrollsystem (folgend VCS) ist ein System welches Entwickler / Webdesigner / Grafikdesigner / Jeden der Dateien arbeitet, die regelmäßig revidiert werden. Aber es unterstützt eben auch Systemadministratoren uns in ihrer täglichen Arbiten unterstützt
+  - Ein Versionskontrollsystem (folgend VCS) ist ein System welches Software Entwickler 
+    / Webdesigner 
+    / Grafikdesigner 
+    / Jeden der mit Dateien arbeitet 
+    
+    hilft Diese historisch nachvollziehbar zu bearbeiten, abzuspeichern und wiederherszustellen.
+    
+    
 
   - Es erlaubt jederzeit Dateien, oder ein ganzes Projekt in einen beliebigen (vorher versionierten) Zusatnd zurück zuversetzen, oder
     
-    - Änderungen an Dateien zu vergleichen
+    - Änderungen an Dateien / Dateistrukturen zu vergleichen
     - Urheber jeder Änderung zu indentifizieren (teamorinetiert)
   
-3. Folie:
+***
+Symbolbild (Windows Explorer) --> Daten Messi
+
+  - VCS hilft Ordnung zu halten
+  - Kein Worst Case Scenario 
+  
+      (File deletion, Project nach 200 Zeilen Code schreiben kaputt)
+
+  - Denn alles kann auf einen defnierten Zustand zurückgeführt werden
+
+***
+
+
   - Prinziepiell ist es sicherlich für einige unter euch konfortabler mit einer GUI für die Konfiguration eines Systems zu arbietn. 
   
   - Hierbei eröffnen sich aber einige Unabwägbarkeiten, die es in seine Arbeit einzuhegen gilt

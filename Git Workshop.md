@@ -20,7 +20,7 @@
 
 ***
 </br></br>
-## <center> 1. Was ist ein Version Control System ?</center></br></br></br>
+## <center> 1. Was ist ein Version Control System ?</center></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -36,11 +36,13 @@
     - Änderungen sind jederzeit nachvollziehbar und Nutzern zuortbar
         
 
-    - Ist nicht beschränkt auf Quellcode. Annähernd alle Dateien auf
-      Computern können versioniert werden.
+    - Ist nicht beschränkt auf Quellcode
+    
+    - Annähernd alle Dateien auf Computern können versioniert werden
  
- </div></br>
+ </div></br></br></br></br>
 
+***
  
  <div style="margin-left: auto;
             margin-right: auto;
@@ -52,7 +54,6 @@
             margin-right: auto;
             width: 75%">
 
-- Ermöglicht <b>Änderungsrückverfolgung</b> von Projektdateien</div></br></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -68,7 +69,7 @@
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 105%">
 
 ![Git Desktop](assets/git_desktop_author.png)</div></br></br></br></br>
 
@@ -242,3 +243,5 @@ release
 </div>
 
 ****
+
+https://ndpsoftware.com/git-cheatsheet.html#loc=stash;
