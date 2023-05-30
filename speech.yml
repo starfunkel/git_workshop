@@ -1,10 +1,11 @@
-# Sprachnotizen
+### Sprachnotizen
 
-1. Folie:
   - Dieser Vortrag gibt einen Einblick in das VCS System Git 
-  - Es soll Git für euer Arbeiten Attraktiv machen!
 
-2. Folie:
+  - Es soll Git für euer Arbeiten Attraktiv machen und euch auch für Open Source Prrojekte begeistern!
+
+***
+
   - Ein Versionskontrollsystem (folgend VCS) ist ein System welches Entwickler / Webdesigner / Grafikdesigner / Jeden der Dateien arbeitet, die regelmäßig revidiert werden. Aber es unterstützt eben auch Systemadministratoren uns in ihrer täglichen Arbiten unterstützt
 
   - Es erlaubt jederzeit Dateien, oder ein ganzes Projekt in einen beliebigen (vorher versionierten) Zusatnd zurück zuversetzen, oder

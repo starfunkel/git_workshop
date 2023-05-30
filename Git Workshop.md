@@ -26,7 +26,21 @@
             margin-right: auto;
             width: 75%">
 
- - Unterstützt bei der <b>Organisation von Projektdateien</b> jedweder Art</div></br>
+-  Unterstützt bei der <b>Organisation (und dem Versionieren) von Dateien </b> jedweder Art
+
+</br>
+
+    - Systematische "Archivierung" und Aufzeichnung von Dateien / Dateistrukturen
+    
+    
+    - Änderungen sind jederzeit nachvollziehbar und Nutzern zuortbar
+        
+
+    - Ist nicht beschränkt auf Quellcode. Annähernd alle Dateien auf
+      Computern können versioniert werden.
+ 
+ </div></br>
+
  
  <div style="margin-left: auto;
             margin-right: auto;
