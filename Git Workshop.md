@@ -1,6 +1,6 @@
 # <center>Git Pizza Freitag</center>
 
-## <center>Ein Vortrag vom Versionieren</center>
+## <center>Ein Workshop zum Versionieren</center>
 
 </br><div style="margin-left: auto;
             margin-right: auto;
@@ -32,18 +32,40 @@
 
     - Systematische "Archivierung" und Aufzeichnung von Dateien / Dateistrukturen
     
-    
     - Änderungen sind jederzeit nachvollziehbar und Nutzern zuortbar
-        
-
-    - Ist nicht beschränkt auf Quellcode
+   
+    - Ist nicht beschränkt auf Quellcode / Text
     
     - Annähernd alle Dateien auf Computern können versioniert werden
  
- </div></br></br></br></br>
+<br><br><br><br><br><br>
+
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 140">
+
+![Symbolbild](assets/hash_tree.jpg)</div></br>
+
+ </div></br></br>
+ 
+ ### <center> Beispiel Workflow
+ <br>
+
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 70%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
+</div>
+ 
+ 
+ </br></br>
 
 ***
- 
+
+ #### <center> Versionirungsstrategien
+
+
  <div style="margin-left: auto;
             margin-right: auto;
             width: 75%">
@@ -72,6 +94,16 @@
             width: 105%">
 
 ![Git Desktop](assets/git_desktop_author.png)</div></br></br></br></br>
+
+#### <center> Git Log als Cli Output und in bunt
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 120%">
+
+![Git_log_cli](assets/git_log.png)</div></br>
+
+
 
 ***
 </br></br></br></br></br></br></br></br>

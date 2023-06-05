@@ -6,12 +6,11 @@
 
 ***
 
-  - Ein Versionskontrollsystem (folgend VCS) ist ein System welches Software Entwickler 
-    / Webdesigner 
-    / Grafikdesigner 
-    / Jeden der mit Dateien arbeitet 
+  - Ein Versionskontrollsystem (folgend VCS) ist ein System welches nahaezu alle Dateien die ein Computer speichern kann versionieren, d.h. Dateien in einen nicht bzw. nur schwer veränderbaren "Historienbaum"abspeichert. 
+
+  --> KEINE BLOCKCHAIN !!!! Merkle Tree, aber konzeptionell nicht mit einer Blockchain zu vergleichen!!!
     
-    hilft Diese historisch nachvollziehbar zu bearbeiten, abzuspeichern und wiederherszustellen.
+Hilft Dateien historisch nachvollziehbar zu bearbeiten, abzuspeichern und wiederherszustellen.
     
     
 
