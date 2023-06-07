@@ -148,30 +148,39 @@
 
 ***
 
-<center> Kommandozeileninteraktion verschafft <strong>tieferes</strong> Verständnis</center>
+<center> - Kommandozeileninteraktion verschafft <strong>tieferes</strong> Verständnis</center></br></br></br></br></br></br></br></
 
-</br></br></br></br></br></br></br></br></br></br></br></br>
+## <center>Changing point of view</center>
+</br>
+<center> Ermöglicht Kollaboration </center>
+<center> - gemeinsame Arbeiten an einer Codebasisi</center></br></br></br></br></br></br></br></br></br></br></br></br>
 
-## <center>  Q&A</center>
+## <center>Q&A</center>
 
 
 
 </br></br></br></br></br></br></br></br></br></br></br></br>
 
 ***
-</br></br></br></br></br></br></br></br></br>
+</br></br></br>
 ## <center>Hands on!</center>
-</br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br>
 
-***
+
+
+</br></br></br></br></br></br></br></br>***
 
 
 
 
 ## <center>Ein typerischer Workflow</center>
 
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
 
-
+![Alt text](assets/Faas.png)
+</div></br></br></br></br>
 <div style="margin-left: auto;
             margin-right: auto;
             width: 120%">
@@ -179,8 +188,7 @@
 ![Alt text](asstest/../assets/git_workflow.png)
 </div>
 
-***
-
+***</br></br></br></br></br></br>
 Anfang
 
 <div style="margin-left: auto;
@@ -194,17 +202,24 @@ Mittagessen
 
 ```bash
 git status
-git add <some-file>
+git add <some-file> # or
+git add . # Dangerous... know what you're adding!
 git commit -m 'some usefull message'
+[main e6694c8] some usefull message
+ 4 files changed, 39 insertions(+), 24 deletions(-)
+ create mode 100644 Git Workshop.pdf
+ create mode 100644 assets/git_workflow.png
+
+git add <some-file>
 git commit -m 'some more usefull message'
+[main e6694f8] some usefull message
+ 6 files changed, 349 insertions(+), 246 deletions(-)
+ create mode 100644 Git Workshop.pdf
+ create mode 100644 assets/something_else.jppgr
+git add <some-file>
 git commit -m 'some most usefull message'
-git push
+...
 ```
-
-</br></br></br></br></br></br>
-
-***
-
 <div style="margin-left: auto;
             margin-right: auto;
             width: 70%">
@@ -212,7 +227,23 @@ git push
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:e2c88c1b-fb28-46a3-93be-c1c45f86bd1c/03%20(1).svg?cdnVersion=800)
 </div>
 
-git push -u origin marys-feature
+- Commits sind nun im lokalen Repository und für den nächsten push Vorgang vorbereitet
+
+***
+</br></br></br></br></br></br></br></br></br></br></br></br>
+
+```bash
+git push
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 18.08 MiB | 1.55 MiB/s, done.
+Total 18 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 5 local objects.
+To github.com:starfunkel/git_workshop.git
+   5cf08fb..e6694c8  main -> main
+```
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -220,6 +251,8 @@ git push -u origin marys-feature
 
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:d0c471b4-61c8-4005-86bc-904d894e391b/04.svg?cdnVersion=800)
 </div>
+
+- 
 
 merging
 <div style="margin-left: auto;
