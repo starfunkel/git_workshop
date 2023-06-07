@@ -24,7 +24,7 @@
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 75%"> 
 
 -  Unterstützt bei der <b>Organisation (und dem Versionieren) von Dateien </b> jedweder Art
 
