@@ -132,52 +132,54 @@
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 120%">
+            width: 100%">
 
  ![wget_win_new](assets/wget_-h.gif)</div></br></br>
 
-- GUIs bilden i.d.R. nicht alle Features ab 
+<center>- GUIs bilden i.d.R. <strong>nicht</strong> Features ab</center><br>
 
-<br>
 
-- informationstechnologische Trends zeigen aud API Calls und damit auf Code zur System / Service Administration
+<center>- informationstechnologische Trends zeigen auf</center><br>
 
+***
+
+<center><strong>API Calls--> Quellcode</strong></center><br>
+<center>zur System / Service Administration / Konfiguration</center><br>
+
+***
+
+<center> Kommandozeileninteraktion verschafft <strong>tieferes</strong> Verständnis</center>
+
+</br></br></br></br></br></br></br></br></br></br></br></br>
+
+## <center>  Q&A</center>
 
 
 
 </br></br></br></br></br></br></br></br></br></br></br></br>
 
 ***
-## <center>Real Life Beispiele</center>
+</br></br></br></br></br></br></br></br></br>
+## <center>Hands on!</center>
+</br></br></br></br></br></br></br></br></br></br></br></br>
 
-</br></br></br>
+***
 
-### <center>Konfigdateien im Windows Umfeld (Fokus Administration)</center>
 
-</br></br>
+
+
+## <center>Ein typerischer Workflow</center>
+
+
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 70%">
+            width: 120%">
 
-|Switch Konfigs|Router Konfigs|Schedlued Task|Generic xmls|CMD, PoSh, Python Scripts|csv Dateien, Text Dateien|[*]
-|-|-|-|-|-|-|-|
-</br>
-<center>[*]: Prinzipiel lassen sich alle Dateitypen mit Git versionieren. Bei Konfigdateien liegt der Vorteil auf der Hand. Man kann die Änderungen lesen.
+![Alt text](asstest/../assets/git_workflow.png)
 </div>
 
-</br></br></br></br></br></br></br></br></br>
-
-#### <center>Dabei sind mit Git versionierte Dateien nicht bloße Historienketten von in der Vergangenheit gespeichertem Code.</center>
-
-</br></br></br>
-
-#### <center>Ein weiterer zentraler Ansatz ist die die Möglichkeit der Kollaboration im Team, oder völlig fremden Menschen über  einer Organisationsgrenzen.</center>
-
-</br></br></br></br></br></br></br></br></br></br></br></br>
-
 ***
-## <center>Ein typerischer Workflow</center>
 
 Anfang
 
@@ -188,14 +190,20 @@ Anfang
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
 </div>
 
-lunch time
+Mittagessen
 
 ```bash
 git status
 git add <some-file>
 git commit -m 'some usefull message'
+git commit -m 'some more usefull message'
+git commit -m 'some most usefull message'
 git push
 ```
+
+</br></br></br></br></br></br>
+
+***
 
 <div style="margin-left: auto;
             margin-right: auto;

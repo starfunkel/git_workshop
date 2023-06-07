@@ -40,3 +40,10 @@ Symbolbild (Windows Explorer) --> Daten Messi
 
   - Im Gegensatz dazu bitet das Arbeiten mit Konfigdateien die Möglichkeit sich nicht nur mit der aufbereiteten durch den Hersteller bereitgestellten GUI technischer Konzepte auseinanderzusetzen, sondern es besteht darüber hinaus die Chance sich tiefes und grundlegendes Wissen anzueignen
 
+Prinzipiel lassen sich alle Dateitypen mit Git versionieren. Bei Konfigdateien liegt der Vorteil auf der Hand. Man kann die Änderungen lesen.
+
+#### <center>Dabei sind mit Git versionierte Dateien nicht bloße Historienketten von in der Vergangenheit gespeichertem Code.</center>
+
+</br></br></br>
+
+#### <center>Ein weiterer zentraler Ansatz ist die die Möglichkeit der Kollaboration im Team, oder völlig fremden Menschen über  einer Organisationsgrenzen.</center>
