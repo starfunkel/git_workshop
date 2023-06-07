@@ -8,8 +8,6 @@
 
 ![Happy with Git](assets/git-commit-organized.jpg)</div></br>
 
-
-
 ### <center>Christian Rathnau</center></br>
 
 <div style="margin-left: 330px;
@@ -42,16 +40,9 @@
 
  <div style="margin-left: auto;
             margin-right: auto;">
-
-![Symbolbild](assets/hash_tree.jpg)</div></br>
-
- </div></br></br>
- 
-
- 
- 
- </br></br>
-
+            
+![Symbolbild](assets/hash_tree.jpg)</div></br> </div></br></br>
+</br></br>
 ***
 
  ## <center> Versionirungsstrategien im Überblick
@@ -109,14 +100,11 @@
 
 ### <center>GUIs ändern sich</center></br>
 
- 
 <div style="margin-left: auto;
             margin-right: auto;
             width: 75%">
 
 ![wget_win_old](assets/old_wgetgui-screenshot.png)</div>
-
-
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -155,23 +143,11 @@
 <center> Ermöglicht Kollaboration </center>
 <center> - gemeinsame Arbeiten an einer Codebasisi</center></br></br></br></br></br></br></br></br></br></br></br></br>
 
-## <center>Q&A</center>
-
-
-
-</br></br></br></br></br></br></br></br></br></br></br></br>
-
+## <center>Q&A</center></br></br></br></br></br></br></br></br></br></br></br></br>
 ***
 </br></br></br>
-## <center>Hands on!</center>
-</br></br></br></br>
-
-
-
-</br></br></br></br></br></br></br></br>***
-
-
-
+## <center>Hands on!</center></br></br></br></br></br></br></br></br></br></br></br></br>
+***
 
 ## <center>Ein typerischer Workflow</center>
 
@@ -179,16 +155,15 @@
             margin-right: auto;
             width: 100%">
 
-![Alt text](assets/Faas.png)
-</div></br></br></br></br>
+![Alt text](assets/Faas.png)</div></br></br></br></br>
 <div style="margin-left: auto;
             margin-right: auto;
             width: 120%">
 
-![Alt text](asstest/../assets/git_workflow.png)
-</div>
+![Alt text](asstest/../assets/git_workflow.png)</div>
 
-***</br></br></br></br></br></br>
+***
+</br></br></br></br></br></br>
 Anfang
 
 <div style="margin-left: auto;
