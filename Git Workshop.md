@@ -4,19 +4,19 @@
 
 </br><div style="margin-left: auto;
             margin-right: auto;
-            width: 35%">
+            width: 65%">
 
 ![Happy with Git](assets/git-commit-organized.jpg)</div></br>
 
 
 
-#### <center>Christian Rathnau</center></br>
+### <center>Christian Rathnau</center></br>
 
-<div style="margin-left: 750px;
+<div style="margin-left: 330px;
             width: 35%
             ">
 
-![integrate](assets/integrate.png)</div></br></br></br></br></br></br></br>
+![integrate](assets/integrate.png)</div></br></br></br>
 
 ***
 </br></br>
@@ -34,37 +34,33 @@
     
     - Änderungen sind jederzeit nachvollziehbar und Nutzern zuortbar
    
-    - Ist nicht beschränkt auf Quellcode / Text
+    - Ist nicht beschränkt auf Quellcode / Text !!
     
     - Annähernd alle Dateien auf Computern können versioniert werden
  
 <br><br><br><br><br><br>
 
  <div style="margin-left: auto;
-            margin-right: auto;
-            width: 140">
+            margin-right: auto;">
 
 ![Symbolbild](assets/hash_tree.jpg)</div></br>
 
  </div></br></br>
  
- ### <center> Beispiel Workflow
- <br>
 
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
-</div>
  
  
  </br></br>
 
 ***
 
- #### <center> Versionirungsstrategien
+ ## <center> Versionirungsstrategien im Überblick
 
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 25%">
+
+![Symbolbild](assets/pic_version.png)</div></br>
 
  <div style="margin-left: auto;
             margin-right: auto;
@@ -83,11 +79,6 @@
 
 ![Git Desktop](assets/git_desktop_changes.png)</div></br>
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 75%">
-
-- Ermöglicht den <b>Urheber</b> einer jeden Änderung zu identifizieren</div></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
@@ -101,26 +92,20 @@
             margin-right: auto;
             width: 120%">
 
-![Git_log_cli](assets/git_log.png)</div></br>
-
-
-
+![Git_log_cli](assets/git_log.png)</div></br></br></br></br></br></br></br></br></br>
 ***
-</br></br></br></br></br></br></br></br>
+</br></br></br>
 
-## <center>Boah wat?  Code? ... Konfig Dateien? ...</br> Pah! Ich benutze GUI !!1!1</center></br></br></br></br></br>
+## <center>Boah wat?  Code? ... Konfig Dateien? ...</br></br> Pah! Ich benutze GUI !!1!1</center></br></br></br></br></br></br></br></br></br></br></br>
+***
 
-## <center><b>Hold your beer!!</b></center></br></br>
+## <center><b>Hold your beer!</b></center></br></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
             width: 75%">
 
 ![drunk_baby](assets/drunk_baby.png)</div></br></br></br></br></br></br></br></br></br>
-
-
-
-
 
 ### <center>GUIs ändern sich</center></br>
 
@@ -142,19 +127,20 @@
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 75%"></div></br></br>
 
- - GUIs bilden i.d.R. nicht alle Features ab</div></br></br>
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 120%">
 
- ![wget_win_new](assets/wget-cli.png)</div></br></br>
+ ![wget_win_new](assets/wget_-h.gif)</div></br></br>
 
+- GUIs bilden i.d.R. nicht alle Features ab 
 
+<br>
 
-
+- informationstechnologische Trends zeigen aud API Calls und damit auf Code zur System / Service Administration
 
 
 
@@ -277,3 +263,14 @@ release
 ****
 
 https://ndpsoftware.com/git-cheatsheet.html#loc=stash;
+
+
+ ### <center> Beispiel Workflow
+ <br>
+
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 70%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
+</div>
