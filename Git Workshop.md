@@ -31,66 +31,164 @@
 </br>
 
     - Systematische "Archivierung" und Aufzeichnung von Dateien / Dateistrukturen
+
+    - Vollständiger Code Klon im lokalen Repository --> Offline / Remote Arbeit möglich
     
     - Änderungen sind jederzeit nachvollziehbar und Nutzern zuortbar
    
-    - Ist nicht beschränkt auf Quellcode / Text !!
+    - Ist nicht beschränkt auf Quellcode / Text
     
     - Annähernd alle Dateien auf Computern können versioniert werden
  
 <br><br><br><br><br><br>
 
+***
+<br><br>
+## <center> Grundkonzepte</center>
+<br><br><br>
+
+### <center> Hash Baum / Merkle Tree </center>
+<br>
+
  <div style="margin-left: auto;
             margin-right: auto;">
 
-![Symbolbild](assets/hash_tree.jpg)</div></br>
 
- </div></br></br>
- 
+![bla](assets/Hash_Tree.svg.png)
 
- 
- 
- </br></br>
+    - Jeder Zweig / Node ist mit einem Kryptographischen Hash versehen
+
+    - Ein Block / Blob beruht auf den Hashwerten seiner Kinder 
+
+    - Vorteile:
+        - Fähigkeit einer genauen Zuordnung einer Änderung bei Kenntnis des hashes 
+
+    - Ermöglicht Schutz vor Integrittätsverlust
+
+    - Ermöglicht ein es einen Zustand "zurück zu rechnen" 
+</div><br><br><br><br>
 
 ***
 
- ## <center> Versionirungsstrategien im Überblick
+<br><br>
 
+### <center> Git commit
+<br>
+
+<div style="margin-left: auto;
+        margin-right: auto;
+        width:100%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)</div>
+</div>
+
+
+- Jede Speicherung erstellt einen Schnapschuss des Zustandes bei Speicherung (Hashwert wird kreiert)
+
+- Bei neuen Commits werden durch die Hash Baum Logik neue Beziehungen zu anderen Commits hergestellt<br><br><br><br>
+
+***
+<br><br>
+
+### <center> Git Branches
+<br>
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:09308632-38a3-4637-bba2-af2110629d56/07.svg?cdnVersion=800)</div>
+
+- Branches sind zeiger die auf einen Commit in der Historie zum Ausgangspunkt für alle nachfolgenden Commits mit diesem zeiger dienen
+
+- Arbeiten innerhalb dieses "Vorzeichens" sind unabhängig von anderen Vorzeichen (Branches)<br><br><br><br>
+
+***
+<br><br>
+
+### <center> Git Workflows Feature adding
+<br>
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=800)
+</div>
+<br><br><br><br><br><br>
+
+### <center> Git Workflow mit Release
+<br>
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
+![Alt text](https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=800)
+</div> </br></br> </br></br>
+
+***
+<br>
+
+ ## <center> Versionirungsstrategien im Überblick
+ </br></br>
+
+ ## <center> Bildbearbeitungsprogramm GIMP
+ <br>
  <div style="margin-left: auto;
             margin-right: auto;
             width: 25%">
 
-![Symbolbild](assets/pic_version.png)</div></br>
+![Symbolbild](assets/pic_version.png)
+<br>
+GIMP Projektdatei Historie
+</div></br>
 
  <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 100%">
 
-![Symbolbild](assets/Symbolbild.png)</div></br>
+***
+<br>
+
+![Symbolbild](assets/Symbolbild.png)
+<br>
+*Student ;-)
+</div></br>
+
+***
+<br>
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
+            width: 100%">
+
+## <center> Github Desktop Beispiel
+<br>
+
+
+![Git Desktop](assets/git_desktop_changes.png)
+Github Desktop Log / Historienanzeoge
+</div></br>
 
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 75%">
-
-![Git Desktop](assets/git_desktop_changes.png)</div></br>
-
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 105%">
+            width: 100%">
 
 ![Git Desktop](assets/git_desktop_author.png)</div></br></br></br></br>
+***
+
 
 #### <center> Git Log als Cli Output und in bunt
+<br>
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 120%">
+            width: 100%">
 
 ![Git_log_cli](assets/git_log.png)</div></br></br></br></br></br></br></br></br></br>
 ***
@@ -245,51 +343,9 @@ To github.com:starfunkel/git_workshop.git
    5cf08fb..e6694c8  main -> main
 ```
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
 
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:d0c471b4-61c8-4005-86bc-904d894e391b/04.svg?cdnVersion=800)
 </div>
-
-- 
-
-merging
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:09308632-38a3-4637-bba2-af2110629d56/07.svg?cdnVersion=800)
-
-general Working
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:a13c18d6-94f3-4fc4-84fb-2b8f1b2fd339/01%20How%20it%20works.svg?cdnVersion=800)
-</div>
-
-branches
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=800)
-</div>
-
-release
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=800)
-</div>
-
-
-
 
 
 
@@ -306,12 +362,3 @@ release
 https://ndpsoftware.com/git-cheatsheet.html#loc=stash;
 
 
- ### <center> Beispiel Workflow
- <br>
-
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
-
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
-</div>

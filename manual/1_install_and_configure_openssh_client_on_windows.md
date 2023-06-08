@@ -19,12 +19,12 @@ if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyCon
 }
 ```
 
-## Navigate to %USERPROFILE%/.ssh (if .ssh does not exist create it please)
+## Navigate to %USERPROFILE%/.ssh (if .ssh does not exist create it now)
 
 ```powershell
-PS C:\Users\rathnau\.ssh> ssh-keygen.exe
+PS ~\.ssh> ssh-keygen.exe
 Generating public/private rsa key pair.
-Enter file in which to save the key (C:\Users\rathnau/.ssh/id_rsa): $KEY.rsa
+Enter file in which to save the key (%USERPROFILE%/.ssh/id_rsa): $KEY.rsa
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 Your identification has been saved in $KEY.rsa.
@@ -48,6 +48,7 @@ The keys randomart image is:
 ```
 
 ## Setup ssh to communicate with Github
+<br>
 
 ```powershell
 # Edit 

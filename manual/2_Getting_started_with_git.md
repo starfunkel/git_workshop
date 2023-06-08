@@ -1,17 +1,9 @@
 # Install and configure Git for Windows on Windows 10
 <br>
 
-## 1. CLI only Installation
+## 1. Git Installation
 
-```powershell
-winget install --id Git.Git -e --source winget
-```
-
-## Test it
-
-```powershell
-ssh git@github.com
-```
+[Git Download Link](https://git-scm.com/download/win)
 
 ## Set global Git config
 
@@ -28,8 +20,8 @@ git config --list
 Write-Output "# STUFF" >> README.md
 git init
 git add README.md
-git add     # was commitet werden soll
-git add .  # für ganzen Ordner
+git add $FILE
+git add .  # adds all files which where changed since last commit
 git commit -m "first commit"
 git branch -M main
 git remote add origin <Repo URL>
