@@ -311,17 +311,17 @@ git commit -m 'some useful message' # Add meaningful message
 
 git add <some-file>
 git commit -m 'some more usefull message' # Add more meaningful message
-[main e6694f8] some useful message
+[main e6694f8] some usefull message
  6 files changed, 349 insertions(+), 246 deletions(-)
  create mode 100644 Git Workshop.pdf
  create mode 100644 assets/something_else.jppgr
 git add <some-file>
-git commit -m 'some most useful message' # You know what to add here 
+git commit -m 'some most usefulll message' # You know what to add here 
 ...
 ```
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 70%">
+            width: 100%">
 
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:e2c88c1b-fb28-46a3-93be-c1c45f86bd1c/03%20(1).svg?cdnVersion=800)
 </div>
@@ -345,7 +345,7 @@ remote: Resolving deltas: 100% (7/7), completed with 5 local objects.
 To github.com:starfunkel/git_workshop.git
    5cf08fb..e6694c8  main -> main
 ```
-
+<br></br>
 
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:d0c471b4-61c8-4005-86bc-904d894e391b/04.svg?cdnVersion=800)
 </div>
