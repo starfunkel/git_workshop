@@ -115,7 +115,7 @@
 
 ![Alt text](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=800)
 </div>
-<br><br><br><br><br><br>
+<br><br><br>
 
 ### <center> Git Workflow mit Release
 <br>
@@ -132,7 +132,8 @@
  ## <center> Versionirungsstrategien im Überblick
  </br></br>
 
- ## <center> Bildbearbeitungsprogramm GIMP
+ ### <center> Bildbearbeitungsprogramm GIMP
+
  <br>
  <div style="margin-left: auto;
             margin-right: auto;
@@ -140,8 +141,10 @@
 
 ![Symbolbild](assets/pic_version.png)
 <br>
-GIMP Projektdatei Historie
-</div></br>
+
+</div>
+  <center> GIMP Projektdatei Historie
+  </br></br>
 
  <div style="margin-left: auto;
             margin-right: auto;
@@ -179,7 +182,10 @@ Github Desktop Log / Historienanzeoge
             margin-right: auto;
             width: 100%">
 
-![Git Desktop](assets/git_desktop_author.png)</div></br></br></br></br>
+![Git Desktop](assets/git_desktop_author.png)</div>
+<center> Beispiel von unterschiedlichen Kontributoren
+
+</br></br></br></br>
 ***
 
 
@@ -194,7 +200,9 @@ Github Desktop Log / Historienanzeoge
 ***
 </br></br></br>
 
-## <center>Boah wat?  Code? ... Konfig Dateien? ...</br></br> Pah! Ich benutze GUI !!1!1</center></br></br></br></br></br></br></br></br></br></br></br>
+## <center>Boah wat?  Code? ... Konfig Dateien? ...</br></br> Pah! Ich benutze GUI !!1!1</center>
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 ***
 
 ## <center><b>Hold your beer!</b></center></br></br>
@@ -227,7 +235,7 @@ Github Desktop Log / Historienanzeoge
             margin-right: auto;
             width: 75%"></div></br></br>
 
-
+### <center> Wget CLI Optionen 
 <div style="margin-left: auto;
             margin-right: auto;
             width: 100%">
@@ -239,34 +247,17 @@ Github Desktop Log / Historienanzeoge
 
 <center>- informationstechnologische Trends zeigen auf</center><br>
 
-***
-
 <center><strong>API Calls--> Quellcode</strong></center><br>
 <center>zur System / Service Administration / Konfiguration</center><br>
 
-***
-
-<center> - Kommandozeileninteraktion verschafft <strong>tieferes</strong> Verständnis</center></br></br></br></br></br></br></br></
-
-## <center>Changing point of view</center>
-</br>
-<center> Ermöglicht Kollaboration </center>
-<center> - gemeinsame Arbeiten an einer Codebasisi</center></br></br></br></br></br></br></br></br></br></br></br></br>
-
-## <center>Q&A</center>
-
-
-
-</br></br></br></br></br></br></br></br></br></br></br></br>
+Kommandozeileninteraktion /<br> 
+Die Entwicklung von Funktionen und Code Snippets <br>
+verschafft <strong>tieferes</strong> Verständnis</br></br></br></br></br></br></br>
 
 ***
-</br></br></br>
-## <center>Hands on!</center>
-</br></br></br></br>
 
+<br>
 
-
-</br></br></br></br></br></br></br></br>***
 
 
 
@@ -281,41 +272,51 @@ Github Desktop Log / Historienanzeoge
 </div></br></br></br></br>
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 120%">
+            width: 100%">
 
 ![Alt text](asstest/../assets/git_workflow.png)
-</div>
+</div></br></br></br></br>
 
-***</br></br></br></br></br></br>
-Anfang
+***
+</br></br></center></center>
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 70%">
+<center>### Früh am Morgen</center>
+<br>
 
-![Alt text](https://wac-cdn.atlassian.com/dam/jcr:223f5106-2191-4450-8916-e5c80d7d907a/02.svg?cdnVersion=800)
-</div>
-
-Mittagessen
+```powershell
+Write-Output "# STUFF" >> README.md # Set a file and file content 
+git init # Initialize a new repository 
+git add README.md # Add the created file to staging
+git add .  # Add all files which where changed since last commit
+git commit -m "first commit" # Commit local change to local repo
+git branch -M main # Set branch name (default for future commits)
+git remote add origin <Repo URL> # Set remote repo URL
+git push --set-upstream -origin main # Set remote branchfor the current local branch
+git push -u origin main # Push local repository (added commits) to remote repository
+```
+<br>
+<center>Vor dem Mittagessen </center>
+<br>
 
 ```bash
-git status
+git fetch # Get info on colleague's work
+git status # Show the  local changes vs. remote
 git add <some-file> # or
 git add . # Dangerous... know what you're adding!
-git commit -m 'some usefull message'
-[main e6694c8] some usefull message
+git commit -m 'some useful message' # Add meaningful message
+[main e6694c8] some useful message
  4 files changed, 39 insertions(+), 24 deletions(-)
  create mode 100644 Git Workshop.pdf
  create mode 100644 assets/git_workflow.png
 
 git add <some-file>
-git commit -m 'some more usefull message'
-[main e6694f8] some usefull message
+git commit -m 'some more usefull message' # Add more meaningful message
+[main e6694f8] some useful message
  6 files changed, 349 insertions(+), 246 deletions(-)
  create mode 100644 Git Workshop.pdf
  create mode 100644 assets/something_else.jppgr
 git add <some-file>
-git commit -m 'some most usefull message'
+git commit -m 'some most useful message' # You know what to add here 
 ...
 ```
 <div style="margin-left: auto;
@@ -328,7 +329,9 @@ git commit -m 'some most usefull message'
 - Commits sind nun im lokalen Repository und für den nächsten push Vorgang vorbereitet
 
 ***
-</br></br></br></br></br></br></br></br></br></br></br></br>
+<br><br>
+
+<center>Git Push </center><br><br>
 
 ```bash
 git push
@@ -357,8 +360,10 @@ To github.com:starfunkel/git_workshop.git
 ![integrate](/Pizza%20Freitag/assets/integrate.png)
 </div>
 
-****
+***
+***
+***
 
-https://ndpsoftware.com/git-cheatsheet.html#loc=stash;
-
+<br></br></br></br></br></br></br></br></br></br></br></br>## <center>Q&A</center></br></br></br></br></br></br></br></br></br></br></br></br>
+***
 
