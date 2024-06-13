@@ -364,6 +364,11 @@ To github.com:starfunkel/git_workshop.git
 ***
 ***
 
-<br></br></br></br></br></br></br></br></br></br></br></br>## <center>Q&A</center></br></br></br></br></br></br></br></br></br></br></br></br>
-***
+<br></br></br></br></br></br></br></br></br></br></br></br>
+
+## <center>Q&A</center>
+
+</br></br></br></br></br></br></br></br></br></br></br></br>
+
+
 
